@@ -132,18 +132,11 @@ export default function MainComponent({
                         py={2}
                         sx={{ display: "flex", justifyContent: "center" }}
                     >
-                        <Typography
-                            fontFamily="Figtree"
-                            fontWeight={600}
-                            variant="h5"
-                        >
-                            To-Do app
-                        </Typography>
-                        {/* <Box
+                        <Box
                             component="img"
-                            src="/static/todo.png"
+                            src="/storage/todo.png"
                             width={{ xs: "70%", sm: "40%", lg: "15%" }}
-                        ></Box> */}
+                        ></Box>
                     </Grid>
                     <Grid
                         item
